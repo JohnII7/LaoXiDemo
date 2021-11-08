@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>记得给老袭三连→坦克Demo</title>
+    <link rel="stylesheet" href="font-style/iconfont.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="nav">
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <div class="nav-con">
+                <ul>
+                    <li><span class="iconfont icon-qiziqiqizhizhibiao"></span></li>
+                    <li><span class="iconfont icon-dianchibattery142"></span></li>
+                    <li><span class="iconfont icon-dingwei"></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Parameter</li>
+                <li>Combat</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="slogan">
+                <h1>EVOLVED SIEGE TANK</h1>
+                <p>Concept Siege Tank For The Game. Big. Powerful. With An Energy Gun!Strong Steel Tracks, Like Dragon Claws, Gnaw Into The Flesh Of The arth.</p>
+                <div class="btn">
+                    <div class="btn-left">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <h3>LEARN MORE</h3>
+                    <div class="btn-right"><img src="img/pao1.png" alt=""></div>
+                </div>
+            </div>
+            <!-- 按钮消息-->
+            <div class="info-dot dot1">
+                <div class="info-btn btn1"><span class="iconfont icon-jiahao1"></span></div>
+                <div class="info first">
+                    <h3>ENERGY GUN</h3>
+                    <p>
+                        STRONG STEEL TRACKS, LIKE DRAGON CLAWS, GNAW INTO THE FLESH OF THE EARTH.
+                    </p>
+                </div>
+            </div>
+
+            <div class="info-dot dot2">
+                <div class="info-btn btn2"><span class="iconfont icon-jiahao1"></span></div>
+                <div class="info sec">
+                    <h3>THE LOUD CLANK</h3>
+                    <p>
+                        THE LOUD CLANK OF METAL FRIGHTENS THE ENEMIES FOR MANY KILOMETERS.
+                    </p>
+                </div>
+            </div>
+            <div class="info-dot dot3">
+                <div class="info-btn btn3"><span class="iconfont icon-jiahao1"></span></div>
+                <div class="info third">
+                    <h3>METAL FRIGHTENS</h3>
+                    <p>
+                        METAL FRIGHTENS THE ENEMIES FOR LIKE DRAGON CLAWS, GNAW INTO.
+                    </p>
+                </div>
+            </div>
+            <div class="info-dot dot4">
+                <div class="info-btn btn4"><span class="iconfont icon-jiahao1"></span></div>
+                <div class="info fourth">
+                    <h3>DRAGON CLAWS</h3>
+                    <p>
+                        THE BRIGHT LIGHT OF THE ENERGY GUN INSTILLS DRAGON CLAWS.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('.btn1').click(function() {
+                $('.first').toggleClass('info-active')
+            });
+            $('.btn2').click(function() {
+                $('.sec').toggleClass('info-active')
+            });
+            $('.btn3').click(function() {
+                $('.third').toggleClass('info-active')
+            });
+            $('.btn4').click(function() {
+                $('.fourth').toggleClass('info-active')
+            });
+        });
+
+    </script>
+</body>
+
+</html>
